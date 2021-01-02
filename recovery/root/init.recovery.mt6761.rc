@@ -11,7 +11,7 @@ on init
     mkdir /config/usb_gadget/g1/configs/b.1 0777 shell shell
     mkdir /config/usb_gadget/g1/configs/b.1/strings/0x409 0770 shell shell
     mkdir /config/usb_gadget/g1/functions/ffs.adb
-
+    
     #BSP: add XWWYLHLYS-1840 by jun.fang1 20181115 begin
     setprop sys.usb.ffs.aio_compat 1
     #BSP: add XWWYLHLYS-1840 by jun.fang1 20181115 end
